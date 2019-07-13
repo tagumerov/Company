@@ -1,4 +1,6 @@
 public interface Employee
 {
-    public  int getMonthSalary();
+    int getMonthSalary(); //получение дохода
+    String getPosition(); //получение должности
+    String getName(); //получение ими
 }
